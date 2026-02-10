@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+
+# Environment files
+.env
+.env.local
+*.local
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Vector store indices (regenerated)
+backend/vectorstore/*/index.faiss
+backend/vectorstore/*/index.pkl
+
+# Test coverage
+.coverage
+htmlcov/

@@ -1,0 +1,22 @@
+/* Trust Indicator Styles */
+.trust-indicator {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-top: 8px;
+  font-size: 13px;
+}
+.trust-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trust-details {
+  margin-top: 8px;
+  color: #666;
+}
+.disclaimer {
+  color: #e65100;
+  margin-top: 4px;
+}
